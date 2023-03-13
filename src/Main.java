@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
+
+
+
         var dog = 8.0;
         System.out.println(dog);
         var cat = 3.6;
@@ -53,8 +56,12 @@ public class Main {
         var theDifferenceBetweenTheScalesOfBoxers=boxer2-boxer1;
         System.out.println(theDifferenceBetweenTheScalesOfBoxers);
 
+
+
         var athletesWeightDifference=boxer2-boxer1;
         System.out.println("Разница в весе спортсменов "+athletesWeightDifference+" кг");
+        var RemainderFromDivision=(boxer2 % boxer1);
+        System.out.println("остаток от деления равен "+athletesWeightDifference+" кг");
 
 
 
@@ -72,33 +79,6 @@ public class Main {
         System.out.println(howManyPeopleAreInTheCompany+" человек, работают во второй компании");
         var hoursOfWorkPerDayTnTheSecondCompany = howManyPeopleAreInTheCompany * workingTimeOfOnePersonPerDay;
         System.out.println(hoursOfWorkPerDayTnTheSecondCompany+" часов работы должно быть поделено  ");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
